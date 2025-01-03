@@ -9,7 +9,7 @@ public class Dev {
 
     @Autowired
     @Qualifier("laptop")
-    private Computer laptop;
+    private Laptop laptop = new Laptop();
 
 //    public Dev(Laptop laptop) {
 //        this.laptop = laptop;
