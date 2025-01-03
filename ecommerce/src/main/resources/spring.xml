@@ -5,7 +5,8 @@
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <bean id="dev" class="com.kirilanastasoff.ecommerce.Dev">
-
+       <!-- <property name="age" value="23" /> -->
+        <constructor-arg value="145" />
     </bean>
 
     <bean id="laptop" class="com.kirilanastasoff.ecommerce.Laptop">
